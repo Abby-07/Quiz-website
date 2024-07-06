@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(251, 225, 232);
+  background-image: url(https://images.typeform.com/images/BAYft7dhkv4t/background/large);
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  color: rgb(131, 2, 83);
+  background-color: rgba(131, 2, 83, 0.1);
+  box-shadow: rgba(131, 2, 83, 0.6) 0px 0px 0px 2px inset;
+  width: 450px;
+  padding: 20px;
+  margin-top: 150px;
+  border-radius: 20px;
+  transition-duration: 0.1s;
+  transition-property: background-color, color, border-color, opacity, box-shadow;
+  transition-timing-function: ease-out;
+  opacity: 1;
+  /* position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px;  
+  margin-left:-100px; */
+}
+
+h1 {
+  text-align: center;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(131, 2, 83);
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-property: background-color, color, border-color, opacity, box-shadow;
+  margin-right: 10px;
+  border: 1px solid transparent;
+}
+
+.button:hover {
+   background-color: rgb(207, 96, 166);
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.hide{
+  display: none;
+}
